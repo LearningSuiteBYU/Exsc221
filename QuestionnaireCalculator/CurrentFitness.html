@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BYUIS (NonStandard) CurrentFitness IframeWidget Instance</title>
+    <link href="WidgetCode/iframe_guest.css" rel="stylesheet">
+    <link href="WidgetCode/interactions.css" rel="stylesheet">
+    <script src="WidgetCode/isInteractive-NonStandard-IframeWidget-QuestionnaireCalculator-v3.js"></script>
+  </head>
+  <body>
+    <!-- InstanceBeginEditable name="InteractionContent" -->
+    <form id="vo2max-form" action="" onsubmit="return false;">
+      <div class="vo2max-wrapper">
+        <b>VO<sub>2</sub>max</b>:
+        65.4
+        <span class="vo2max-spacer">+</span>
+        (7.7 ×
+        <select>
+          <option value="">gender</option>
+          <option value="1">1 (male)</option>
+          <option value="0">0 (female)</option>
+        </select>
+        )
+        <span class="vo2max-spacer">−</span>
+        (0.16 ×
+        <input type="text" size="7" value="weight" onfocus="if(!this.value || !/^[ 0-9.]*$/.test(this.value)) this.value='';" onblur="if(!this.value || !/^[ 0-9.]*$/.test(this.value)) this.value='body weight';">
+        kg)
+        <span class="vo2max-spacer">−</span>
+        (0.84 ×
+        <input type="text" size="7" value="time" onfocus="if(!this.value || !/^[ 0-9.]*$/.test(this.value)) this.value='';" onblur="if(!this.value || !/^[ 0-9.]*$/.test(this.value)) this.value='total 1.5 mile time';">
+        minutes)
+        <span class="vo2max-spacer">=</span>
+        <span id="vo2max-result"><button id="vo2max-trigger" type="button">Calculate VO<sub>2</sub>max</button></span>
+      </div>
+    </form>
+
+    <p>Use this rating scale to obtain an evaluation of your VO<sub>2</sub> max estimation:</p>
+
+    <h3 class="phpally-ignore"><strong>VO<sub>2</sub>max Norms <i>(age 20–29)</i></strong></h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="row"></th>
+          <th scope="col">Low</th>
+          <th scope="col">Fair</th>
+          <th scope="col">Average</th>
+          <th scope="col">Good</th>
+          <th scope="col">High</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="subheading" scope="row">Male</th>
+          <td id="vo2max-male-low">&lt;38</td>
+          <td id="vo2max-male-fair">39–43</td>
+          <td id="vo2max-male-average">44–51</td>
+          <td id="vo2max-male-good">52–56</td>
+          <td id="vo2max-male-high">57–62</td>
+        </tr>
+        <tr>
+          <th class="subheading" scope="row">Females</th>
+          <td id="vo2max-female-low">&lt;28</td>
+          <td id="vo2max-female-fair">29–34</td>
+          <td id="vo2max-female-average">35–43</td>
+          <td id="vo2max-female-good">44–48</td>
+          <td id="vo2max-female-high">49–53</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="credits">Adapted from: <i>Exercise Testing and Prescription: A Health Related Approach. Nieman, D.C. (2007)</i></p>
+    <!-- InstanceEndEditable -->
+    <script src="WidgetCode/CurrentFitness.js"></script>
+    <script src="WidgetCode/iframe_guest.js"></script>
+  </body>
+</html>

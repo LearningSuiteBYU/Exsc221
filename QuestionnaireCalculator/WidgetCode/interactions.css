@@ -1,0 +1,166 @@
+.text-match-highlight,
+tr.text-match-highlight:nth-child(even){ /* To take precedence over zebra striping. */
+  font-weight: bold;
+  background-color: #FFFF00;
+  color: #000;
+}
+.text-miss-transparent{
+  font-weight: normal;
+  background-color: transparent;
+  color: #999;
+}
+
+.credits {
+  border-top: 1px solid #CCC;
+  color: #555;
+  font-size: 0.8em;
+  text-align: right;
+}
+table {
+  border-collapse: collapse;
+}
+tr:nth-child(even){
+  background-color: #EEE;
+}
+th {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #FFF;
+  padding: 0.5em 1em;
+}
+th.subheading {
+  background-color: #CCC;
+  color: #000;
+}
+td {
+  border: 1px solid #000;
+  padding: 0.5em;
+}
+label.larger-target {
+  display: block;
+  margin: -0.5em;
+  padding: 1em;
+}
+
+#audit-test li input{
+  vertical-align: text-bottom;
+}
+#audit-test li{
+  line-height: 1.8em;
+  margin-bottom: 1em;
+}
+#audit-total{
+  height: 2em;
+}
+#audit-total > .text-match-highlight {
+  padding: 0.5em;
+}
+#addiction-summary{
+  padding: 1em 0;
+}
+#addiction-summary > .text-match-highlight {
+  padding: 0.5em;
+}
+#cardio-health-test th.subheading{
+  text-align: left;
+}
+#cardio-health-test #cardio-main-section td{
+  text-align: center;
+}
+#cardio-health-test #cardio-main-section td+td{
+  text-align: left;
+}
+#cardio-health-test td input{
+  margin: 0;
+}
+#cardio-health-summary{
+  padding: 1em 0;
+}
+#cardio-health-summary > .text-match-highlight {
+  padding: 0.5em;
+}
+#cell-phone-summary{
+  padding: 1em 0;
+}
+#cell-phone-summary > .text-match-highlight {
+  padding: 0.5em;
+}
+#hostility-summary{
+  padding: 1em 0;
+}
+#hostility-summary > .text-match-highlight {
+  padding: 0.5em;
+}
+#nature-of-being-trigger{
+  font-weight: normal;
+  font-size: 12px;
+}
+#par-q td{
+  text-align: center;
+}
+#par-q td+td+td{
+  text-align: left;
+}
+#satisfaction-test td+td{
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+}
+#satisfaction-test td+td+td+td+td+td+td+td{
+  border-right: 1px solid #000;
+}
+#satisfaction-summary{
+  padding: 1em 0;
+}
+#satisfaction-summary > .text-match-highlight {
+  padding: 0.5em;
+}
+#social-rating-scale-total {
+  text-align: left;
+}
+#social-rating-scale-total > .text-match-highlight {
+  display: block;
+  margin: -0.5em -1em;
+  padding: 0.5em 1em;
+}
+.vo2max-match {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.vo2max-spacer {
+  font-weight: bold;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.vo2max-wrapper {
+  border: 1px solid #000;
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 3;
+  padding: 0.5em 1em;
+}
+#worth-index-agreement-scale #worth-index-main-section table td{
+  text-align: right;
+}
+#worth-index-agreement-scale #worth-index-main-section table td+td{
+  text-align: left;
+}
+#worth-index-agreement-scale #worth-index-main-section table td+td+td{
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+}
+#worth-index-agreement-scale #worth-index-main-section table td+td+td+td+td+td+td+td+td{
+  border-right: 1px solid #000;
+}
+#worth-index-agreement-scale #worth-index-summary-trigger {
+  margin-top: 1.5em;
+}
+#worth-index-agreement-scale #worth-index-results-table th.subheading {
+  text-align: left;
+  padding: 0.5em;
+}
+#worth-index-agreement-scale #worth-index-results-table td+td,
+#worth-index-agreement-scale #worth-index-results-table th+th.subheading {
+  text-align: center;
+}
